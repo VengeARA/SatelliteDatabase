@@ -1,0 +1,27 @@
+﻿,0
+Official Name of Satellite,object
+Country/Organization of UN Registry,object
+Operator/Owner,object
+Country of Operator/Owner,object
+Users,object
+Purpose,object
+Detailed Purpose,object
+Class of Orbit,object
+Type of Orbit,object
+Longitude of Geosynchronous Orbit (Degrees),float64
+Perigee (Kilometers),float64
+Apogee (Kilometers),float64
+Eccentricity,float64
+Inclination (Degrees),float64
+Period (Minutes),object
+Launch Mass (Kilograms),object
+Dry Mass (Kilograms),object
+Power (Watts),object
+Date of Launch,object
+Expected Lifetime (Years),object
+Contractor,object
+Country of Contractor,object
+Launch Site,object
+Launch Vehicle,object
+COSPAR Number,object
+NORAD Number,float64
