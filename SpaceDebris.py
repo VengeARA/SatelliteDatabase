@@ -16,8 +16,8 @@ st.set_page_config(
 
 
 st.title("Ultimate Satellite Database Analysis")
-
-
+st.write("https://www.kaggle.com/datasets/ucsusa/active-satellites")
+st.write("Kaggle Dataset from 2016, may be outdated.")
 current_dir = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(current_dir, "database.csv")
 df = pd.read_csv(csv_path)
@@ -207,7 +207,7 @@ df['Inclination (°)'] = pd.to_numeric(df['Inclination (Degrees)'], errors='coer
 orbital_df = df.dropna(subset=['Perigee (km)', 'Apogee (km)', 'Inclination (°)'])
 
 
-st.subheader("Collision Risk Estimator (Simplified)")
+st.subheader("Collision Risk")
 
 st.markdown("Select your satellite's planned orbit to check for nearby satellites:")
 
