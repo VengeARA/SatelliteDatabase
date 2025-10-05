@@ -54,6 +54,7 @@ Generates an interactive radar chart for visual comparison.
 Line chart showing total satellite launches per year.
 
 Country-wise trend comparing the top 5 satellite-launching nations.
+
 7. End-of-Life Calculator
 
 Choose a satellite and view:
