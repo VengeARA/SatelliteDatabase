@@ -9,13 +9,13 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="Apoapsis",   
+    page_title="Satellite Database",   
     page_icon="🛰️",                    
     layout="wide"                      
 )
 
 
-st.title("Ultimate Satellite Database Analysis")
+st.title("Ultimate Satellite Database")
 st.write("https://www.kaggle.com/datasets/ucsusa/active-satellites")
 st.write("Kaggle Dataset from 2016, may be outdated.")
 current_dir = os.path.dirname(os.path.abspath(__file__))
